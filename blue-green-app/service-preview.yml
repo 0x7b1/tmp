@@ -10,4 +10,3 @@ spec:
       - nodePort: 32000
         protocol: TCP
         port: 8080
-
