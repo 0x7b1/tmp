@@ -13,7 +13,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/codefresh-contrib/gitops-certification-examples.git
+    repoURL: https://github.com/0x7b1/tmp.git
     targetRevision: HEAD
     path: ./declarative/manifests
    
@@ -31,4 +31,4 @@ spec:
       prune: true # Specifies if resources should be pruned during auto-syncing ( false by default ).
       selfHeal: true # Specifies if partial app sync should be executed when resources are changed only in target Kubernetes cluster and no git change detected ( false by default ).
       allowEmpty: false # Allows deleting all application resources during automatic syncing ( false by default ).
-  
+  |
